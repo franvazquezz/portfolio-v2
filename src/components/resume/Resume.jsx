@@ -18,7 +18,7 @@ const Resume = () => {
 						<legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
 							Experience
 						</legend>
-						<div className=" relative">
+						<div className="relative">
 							{/* design */}
 							<div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
 								<div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
@@ -35,8 +35,20 @@ const Resume = () => {
 								<p className=" text-[.9rem] text-justify break-words text-gray-500">
 									UX/UI design of the application from scratch, putting together the complete flow of the application
 									starting with the login and signup process with their respective verifications, the creation of the
-									profile, home, notifications, messages and the main section for swiping the letters they represent
-									applications
+									profile, home, notifications, messages and the main section for swiping.
+								</p>
+							</div>
+							<div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+								<h1 className="text-[1.4rem] font-semibold sm:text-xl">Fullstack Developer</h1>
+								<span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+									Ypsilon Ingeniería Digital
+								</span>
+								<span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">January 2024 - Present</span>
+								<p className=" text-[.9rem] text-justify break-words text-gray-500">
+									Developing projects, accomplishing tasks and sort of leading the team all the way, working with
+									next.js with react.js and typescript in the frontend, and node.js in the backend. Here, I've worked in
+									three projects so far, including tasks as maintenance, design, creativity, creating and problem
+									solving.
 								</p>
 							</div>
 						</div>
